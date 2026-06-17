@@ -1,3 +1,5 @@
+import { ICategoria } from "./ICategoria";
+
 export interface Lugar{
     idInfo_Lugar:number;
     nombre_Lugar:string;
@@ -9,6 +11,6 @@ export interface Lugar{
     imagen_Lugar:string;
     precio:number;
     personas_disponibilidad:number;
-    Categoria_idCategoria:number;
+    categoria:ICategoria;
 
 }

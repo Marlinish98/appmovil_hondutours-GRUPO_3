@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequilize = require('./db/conexion')
+const sequelize = require('../db/conexion');
 
 const Favoritos = sequelize.define("Favoritos", {
 
@@ -24,4 +24,4 @@ const Favoritos = sequelize.define("Favoritos", {
     timestamps: false
 });
 
-export default Favoritos;
+module.exports =  Favoritos;
