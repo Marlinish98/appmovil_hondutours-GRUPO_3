@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequilize = require('./db/conexion')
+const sequelize = require('../db/conexion');
 
 const Usuarios = sequelize.define("Usuarios", {
     idUsuarios: {
@@ -35,4 +35,4 @@ const Usuarios = sequelize.define("Usuarios", {
     timestamps: false
 });
 
-export default Usuarios;
+module.exports = Usuarios;
