@@ -1,4 +1,4 @@
-// Rutas/StackNavigator.tsx
+
 import React, { useContext } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { usuarioContext } from '../Context/UsuarioContext';
